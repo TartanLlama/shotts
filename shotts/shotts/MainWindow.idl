@@ -1,0 +1,11 @@
+namespace shotts
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+        Microsoft.UI.Xaml.Controls.Slider ShotSlider;
+        Microsoft.UI.Xaml.Controls.Image MainShot;
+        Microsoft.UI.Xaml.Controls.Grid ShotBar;
+    }
+}

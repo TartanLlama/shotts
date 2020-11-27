@@ -1,0 +1,13 @@
+Notes:
+
+Tried to make a menu bar like this:
+<StackPanel>
+        <MenuBar>
+            <MenuBarItem Title="File">
+                <MenuFlyoutItem Text="Open movie"></MenuFlyoutItem>
+                <MenuFlyoutItem Text="Save shots"></MenuFlyoutItem>
+            </MenuBarItem>
+        </MenuBar>
+</StackPanel>
+
+Built fine, but got intellisense error of "The type 'MenuBar' does not support direct content"
